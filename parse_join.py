@@ -134,7 +134,7 @@ def write_to_csv_with_pandas(data, output_file):
 
 if __name__ == "__main__":
     CONFIG_PATH = "parse_config.yaml"
-    OUTPUT_FILE = "/Users/walker/Автоматизации заявок/Талицы с игроками/all_characters_data.csv"
+    OUTPUT_FILE = "output.csv"
 
     # Fetch data and write to CSV
     fetch_character_data(CONFIG_PATH, output_file=OUTPUT_FILE)
