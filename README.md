@@ -3,7 +3,7 @@
 Нужны pandas и pyyaml
 
 дальше вам нужно сделать в корне parser_config.py структуры
-
+```
 auth_url: "https://joinrpg.ru/x-api/token"
 login_data:
   username: "you@email.com"
@@ -12,3 +12,4 @@ login_data:
 characters_url: "https://joinrpg.ru/x-game-api/{projectId}/characters"
 character_details_url: "https://joinrpg.ru/x-game-api/{projectId}/characters/{characterId}"
 project_id: ****  # Замените на ID вашего проекта
+```
